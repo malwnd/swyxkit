@@ -41,14 +41,14 @@
 		<li>
 			<NavLink href="/about">About</NavLink>
 		</li>
-		<li>
+		<!-- <li>
 			<a
 				class="hidden rounded-lg p-1 text-gray-800 transition-all hover:bg-yellow-200 dark:text-gray-200 dark:hover:bg-yellow-800 sm:px-3 sm:py-2 md:inline-block"
 				rel="external"
 				href={'/rss.xml'}
 				><span class="capsize">RSS</span>
 			</a>
-		</li>
+		</li> -->
 	</ul>
 	<div class="flex items-center space-x-4">
 		<!-- RSS -->
@@ -76,7 +76,7 @@
 			</svg>
 		</a> -->
 		<!-- Github -->
-		<a
+		<!-- <a
 			class="rounded-lg text-gray-700 hover:bg-yellow-200 dark:text-gray-200
 			dark:hover:bg-yellow-800"
 			href={REPO_URL}
@@ -97,7 +97,7 @@
 					clip-rule="evenodd"
 				/>
 			</svg>
-		</a>
+		</a> -->
 		<button
 			aria-label="Toggle Dark Mode"
 			class="ml-1 flex h-9 w-9 items-center justify-center rounded-lg bg-yellow-400 ring-yellow-400

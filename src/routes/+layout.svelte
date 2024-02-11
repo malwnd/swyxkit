@@ -40,14 +40,14 @@
 			>
 				Twitter
 			</a>
-			<a
+			<!-- <a
 				class="text-gray-500 transition hover:text-gray-300"
 				target="_blank"
 				rel="noopener noreferrer"
 				href={REPO_URL}
 			>
 				GitHub
-			</a>
+			</a> -->
 			<a
 				class="text-gray-500 transition hover:text-gray-300"
 				target="_blank"
@@ -58,9 +58,9 @@
 			</a>
 		</div>
 	</div>
-	<p class="prose px-4 dark:prose-invert sm:px-8">
+	<!-- <p class="prose px-4 dark:prose-invert sm:px-8">
 		This blog is based on the
 		<a href="https://swyxkit.netlify.app/">swyxkit</a>
 		template.
-	</p>
+	</p> -->
 </footer>
