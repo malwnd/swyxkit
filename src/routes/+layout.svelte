@@ -4,14 +4,7 @@
 	import { MY_TWITTER_HANDLE, MY_YOUTUBE, REPO_URL, SITE_TITLE } from '$lib/siteConfig';
 </script>
 
-<svelte:head>
-	<link
-		rel="alternate"
-		type="application/rss+xml"
-		title={'RSS Feed for ' + SITE_TITLE}
-		href="/rss.xml"
-	/>
-</svelte:head>
+
 
 <div class="flex flex-col justify-center bg-gray-50 px-4 dark:bg-gray-900 sm:px-8">
 	<Nav />
